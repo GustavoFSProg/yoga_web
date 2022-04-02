@@ -5,13 +5,14 @@ export const Container = styled.div`
   width: 100%;
   height: 50px;
   background-size: contain;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   opacity: 0.4;
-  /* 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`
+
+export const Item = styled.span`
   @media screen and (max-width: 800px) {
-    display: flex;
-    flex-direction: column;
-  } */
+    display: none;
+  }
 `

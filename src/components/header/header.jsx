@@ -1,13 +1,15 @@
-import { Container } from './styled-header'
+import SimpleMenu from '../Menu/menu'
+import { Container, Item } from './styled-header'
 
 function Header() {
   return (
     <Container>
-      <span>Home</span>
-      <span>Aulas</span>
-      <span>Contato</span>
-      <span>Sobre</span>
-      <span>Cadastro</span>
+      <SimpleMenu />
+      <Item>Home</Item>
+      <Item>Aulas</Item>
+      <Item>Contato</Item>
+      <Item>Sobre</Item>
+      <Item>Cadastro</Item>
     </Container>
   )
 }
