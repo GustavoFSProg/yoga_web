@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  opacity: 0.5;
+  opacity: 0.4;
 
   @media screen and (max-width: 800px) {
     display: flex;
