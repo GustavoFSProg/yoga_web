@@ -14,4 +14,8 @@ export const HContainer = styled.div`
   align-items: center;
   margin-top: 300px;
   color: gray;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 190px;
+  }
 `
