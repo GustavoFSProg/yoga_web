@@ -29,9 +29,7 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}>Home</MenuItem>
-
         <MenuItem onClick={handleClose}>Aulas</MenuItem>
-
         <MenuItem onClick={handleClose}>Contato</MenuItem>
         <MenuItem onClick={handleClose}>Sobre</MenuItem>
       </Menu>
