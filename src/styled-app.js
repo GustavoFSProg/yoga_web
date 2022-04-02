@@ -7,3 +7,11 @@ export const Container = styled.div`
   height: 100vh;
   background-size: cover;
 `
+
+export const HContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  color: gray;
+`
