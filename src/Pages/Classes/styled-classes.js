@@ -31,11 +31,24 @@ export const Card = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
     margin-bottom: 35px;
-    height: 70rem;
+    height: 80rem;
+    padding-bottom: 25px;
+  }
+`
+export const Img = styled.img`
+  width: 220px;
+  height: 120px;
+  margin-top: -200px;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
   }
 `
