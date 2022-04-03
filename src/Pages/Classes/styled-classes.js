@@ -15,7 +15,7 @@ export const CardContainer = styled.div`
   @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
-    margin-top: 545px;
+    margin-top: 535px;
     align-items: center;
     justify-content: center;
     margin-left: 20px;
