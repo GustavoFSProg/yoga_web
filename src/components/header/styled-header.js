@@ -9,6 +9,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: Roboto;
 `
 
 export const Item = styled.span`
