@@ -12,31 +12,28 @@ function Classes() {
       <CardContainer>
         <Card>
           <Img src={image} alt="imagem" />
-          <span style={{ marginTop: '15px', fontSize: '18px', color: '#595959' }}>Yoga</span>
+          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>Yoga</span>
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a
           </Text>
         </Card>
         <Card>
           <Img src={pilates} alt="imagem" />
-          <span style={{ marginTop: '15px', fontSize: '18px', color: '#595959' }}>Pilates</span>
+          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>Pilates</span>
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a
           </Text>
         </Card>
         <Card>
           <Img src={massagem} alt="imagem" />
-          <span style={{ marginTop: '15px', fontSize: '18px', color: '#595959' }}>
+          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>
             Massoterapia
           </span>
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a
           </Text>
         </Card>
       </CardContainer>

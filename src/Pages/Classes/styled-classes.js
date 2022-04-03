@@ -56,8 +56,9 @@ export const Img = styled.img`
 export const Text = styled.p`
   font-family: Roboto;
   font-size: 16px;
-  width: 14rem;
+  width: 13.2rem;
   text-indent: 15px;
   line-height: 1.5rem;
   color: #8c8c8c;
+  margin-left: 10px;
 `
