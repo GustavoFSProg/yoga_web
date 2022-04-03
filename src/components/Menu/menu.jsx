@@ -4,6 +4,7 @@ import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import MenuIcon from '@material-ui/icons/Menu'
 import { MenuContainer } from './styled-menu'
+import { Link } from 'react-router-dom'
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -28,8 +29,16 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Home</MenuItem>
-        <MenuItem onClick={handleClose}>Aulas</MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link style={{ textDecoration: 'none' }} to="/">
+            Home
+          </Link>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link style={{ textDecoration: 'none' }} to="/classes">
+            Aulas
+          </Link>
+        </MenuItem>
         <MenuItem onClick={handleClose}>Contato</MenuItem>
         <MenuItem onClick={handleClose}>Sobre</MenuItem>
       </Menu>
