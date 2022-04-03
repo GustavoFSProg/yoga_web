@@ -6,6 +6,11 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   background-size: cover;
+  background-color: #ffffe6;
+
+  @media screen and (max-width: 800px) {
+    background-size: contain;
+  }
 `
 
 export const HContainer = styled.div`
@@ -16,6 +21,6 @@ export const HContainer = styled.div`
   color: #a6a6a6;
 
   @media screen and (max-width: 800px) {
-    margin-top: 190px;
+    margin-top: 28px;
   }
 `
