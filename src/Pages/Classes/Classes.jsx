@@ -6,7 +6,17 @@ function Classes() {
   return (
     <Container>
       <Header />
-      <div>classes</div>
+      <div
+        style={{
+          width: '100%',
+          height: '80vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        classes
+      </div>
       <Footer />
     </Container>
   )
