@@ -16,6 +16,9 @@ export const CardContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
   }
 `
 export const Card = styled.div`
