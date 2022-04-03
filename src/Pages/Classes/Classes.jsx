@@ -1,4 +1,4 @@
-import { Container } from './styled-classes'
+import { Container, Card, CardContainer } from './styled-classes'
 import Header from '../../components/header/header'
 import Footer from '../../components/Footer/Footer'
 
@@ -6,17 +6,11 @@ function Classes() {
   return (
     <Container>
       <Header />
-      <div
-        style={{
-          width: '100%',
-          height: '80vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      >
-        classes
-      </div>
+      <CardContainer>
+        <Card>Yoga</Card>
+        <Card>Pilates</Card>
+        <Card>Massagem</Card>
+      </CardContainer>
       <Footer />
     </Container>
   )
