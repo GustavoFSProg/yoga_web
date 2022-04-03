@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import SimpleMenu from '../Menu/menu'
 import { Container, Item } from './styled-header'
 
@@ -5,8 +6,16 @@ function Header() {
   return (
     <Container>
       <SimpleMenu />
-      <Item>Home</Item>
-      <Item>Aulas</Item>
+      <Item>
+        <Link style={{ textDecoration: 'none' }} to="/">
+          Home
+        </Link>
+      </Item>
+      <Item>
+        <Link style={{ textDecoration: 'none' }} to="/classes">
+          Aulas
+        </Link>
+      </Item>
       <Item>Contato</Item>
       <Item>Sobre</Item>
       <Item>Cadastro</Item>
