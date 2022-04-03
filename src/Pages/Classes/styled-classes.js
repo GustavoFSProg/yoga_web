@@ -23,8 +23,8 @@ export const CardContainer = styled.div`
 `
 export const Card = styled.div`
   background: white;
-  width: 270px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   border: 1px solid lightgray;
   border-radius: 5px;
   margin-right: 40px;
@@ -61,4 +61,19 @@ export const Text = styled.p`
   line-height: 1.5rem;
   color: #8c8c8c;
   margin-left: 10px;
+`
+export const Button = styled.button`
+  background: #808080;
+  width: 155px;
+  height: 41px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  transition: ease 0.9s;
+
+  :hover {
+    background: green;
+  }
 `

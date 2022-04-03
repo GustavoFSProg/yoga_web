@@ -1,4 +1,4 @@
-import { Container, Card, CardContainer, Text, Img } from './styled-classes'
+import { Container, Card, CardContainer, Button, Text, Img } from './styled-classes'
 import Header from '../../components/header/header'
 import Footer from '../../components/Footer/Footer'
 import image from '../../assets/foto1.jpeg'
@@ -17,6 +17,7 @@ function Classes() {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
           </Text>
+          <Button onClick={() => alert('You Click me!')}>INSCREVA-SE</Button>
         </Card>
         <Card>
           <Img src={pilates} alt="imagem" />
@@ -25,6 +26,7 @@ function Classes() {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
           </Text>
+          <Button onClick={() => alert('You Click me!')}>INSCREVA-SE</Button>
         </Card>
         <Card>
           <Img src={massagem} alt="imagem" />
@@ -35,6 +37,7 @@ function Classes() {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
           </Text>
+          <Button onClick={() => alert('You Click me!')}>INSCREVA-SE</Button>
         </Card>
       </CardContainer>
       <Footer />
