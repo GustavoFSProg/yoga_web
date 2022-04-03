@@ -13,7 +13,7 @@ export const HContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 300px;
-  color: gray;
+  color: #a6a6a6;
 
   @media screen and (max-width: 800px) {
     margin-top: 190px;

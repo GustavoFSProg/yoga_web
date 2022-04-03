@@ -6,7 +6,7 @@ function App() {
     <Container>
       <Header />
       <HContainer>
-        <h2>Yoga - Padma</h2>
+        <h2>Padma - Yoga</h2>
       </HContainer>
     </Container>
   )
