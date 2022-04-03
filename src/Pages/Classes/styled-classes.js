@@ -15,7 +15,7 @@ export const CardContainer = styled.div`
   @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 355px;
     align-items: center;
     justify-content: center;
     margin-left: 20px;
@@ -44,11 +44,20 @@ export const Card = styled.div`
 export const Img = styled.img`
   width: 220px;
   height: 120px;
-  margin-top: -200px;
+  margin-top: -10px;
+  text-align: center;
 
   @media screen and (max-width: 800px) {
     margin-top: 20px;
     width: 200px;
     height: 100px;
   }
+`
+export const Text = styled.p`
+  font-family: Roboto;
+  font-size: 16px;
+  width: 14rem;
+  text-indent: 15px;
+  line-height: 1.5rem;
+  color: #8c8c8c;
 `
