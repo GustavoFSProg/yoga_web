@@ -16,7 +16,11 @@ function Header() {
           Aulas
         </Link>
       </Item>
-      <Item>Contato</Item>
+      <Item>
+        <Link style={{ textDecoration: 'none' }} to="/register">
+          Lista
+        </Link>
+      </Item>
       <Item>Sobre</Item>
       <Item>Cadastro</Item>
     </Container>
