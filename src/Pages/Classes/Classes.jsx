@@ -21,7 +21,7 @@ function Classes() {
         </Card>
         <Card>
           <Img src={pilates} alt="imagem" />
-          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>Pilates</span>
+          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>Tchicum</span>
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -30,9 +30,7 @@ function Classes() {
         </Card>
         <Card>
           <Img src={massagem} alt="imagem" />
-          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>
-            Massoterapia
-          </span>
+          <span style={{ marginTop: '17px', fontSize: '18px', color: '#595959' }}>Meditação</span>
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown
