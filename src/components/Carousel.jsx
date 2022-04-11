@@ -9,7 +9,7 @@ class Carrousel extends Component {
   render() {
     return (
       <Carousel
-        autoPlay={false}
+        autoPlay={true}
         transitionTime="4500"
         showArrows={true}
         interval="5400"
